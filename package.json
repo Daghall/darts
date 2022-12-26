@@ -1,0 +1,32 @@
+{
+  "name": "darts",
+  "version": "1.0.0",
+  "description": "Darts",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "posttest": "eslint . && echo 'No linting errors!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daghall/darts.git"
+  },
+  "author": "Markus Daghall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daghall/darts/issues"
+  },
+  "homepage": "https://github.com/Daghall/darts#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.28.0",
+    "eslint-config-exp": "^0.5.0",
+    "mocha": "^10.1.0",
+    "mocha-cakes-2": "^3.3.0"
+  }
+}
